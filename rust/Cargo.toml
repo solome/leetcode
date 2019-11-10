@@ -1,0 +1,8 @@
+[package]
+name = "fel-rust"
+version = "0.1.0"
+authors = ["solome <iliyang.cn@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.4.0"
