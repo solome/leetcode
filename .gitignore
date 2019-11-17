@@ -64,7 +64,7 @@ public/
 
 .dynamodb/
 
-/target/
+target/
 
 Cargo.lock
 
