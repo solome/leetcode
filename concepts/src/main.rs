@@ -1,4 +1,4 @@
-fn fibonacci (n: u32) -> u32 {
+fn fibonacci(n: u32) -> u32 {
 	if n == 1 {
 		n
 	} else {
@@ -6,8 +6,8 @@ fn fibonacci (n: u32) -> u32 {
 	}
 }
 
-fn main () {
-    println!("Hello, world!");
+fn main() {
+	println!("Hello, world!");
 	let n = 8;
 	println!("result {}, {}", fibonacci(n), n);
 }
