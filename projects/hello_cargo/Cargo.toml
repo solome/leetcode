@@ -1,9 +1,8 @@
 [package]
-name = "minigrep"
+name = "hello_cargo"
 version = "0.1.0"
-authors = ["solome <iliyang.cn@gmail.com>"]
 edition = "2018"
-
+authors = ["Ivan Lyons <solome@outlook.com>"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
