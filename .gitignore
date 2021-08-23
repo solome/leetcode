@@ -10,6 +10,7 @@ resources/*
 !resources/**.rs
 !resources/**.ts
 !resources/**.js
+!resources/**/
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 pids
