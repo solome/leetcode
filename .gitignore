@@ -6,6 +6,10 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+resources/*
+!resources/**.rs
+!resources/**.ts
+!resources/**.js
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 pids
