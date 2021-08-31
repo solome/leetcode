@@ -18,6 +18,15 @@ function findKSortedArrays(nums1: number[], l: number, nums2: number[], r: numbe
   }
 }
 
+/**
+ * 整体的思路：
+ *  1. 如果俩个数组的长度是奇数，则直接找中间的数；
+ *  2. 如果是偶数，则找中间的两个数求平均值。
+ * 本质：在两个有序数组中找k大元素，这部分用二分查找的逻辑去实现。
+ * @param nums1 
+ * @param nums2 
+ * @returns 
+ */
 function findMedianSortedArrays(nums1: number[], nums2: number[]) {
   const len1 = nums1.length
   const len2 = nums2.length
