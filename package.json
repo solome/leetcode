@@ -1,0 +1,25 @@
+{
+  "name": "@juyipeng/leetcode",
+  "version": "0.1.0",
+  "description": "> 为了折腾研究 [Rust](https://www.rust-lang.org/)，顺便稳固一下数据结构、算法类知识体系吧。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solome/leetcode.git"
+  },
+  "author": "solome \"Ivan Lyons\"",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solome/leetcode/issues"
+  },
+  "homepage": "https://github.com/solome/leetcode#readme",
+  "keywords": [
+    "leetcode"
+  ],
+  "devDependencies": {
+    "tsconfig-paths": "^3.11.0"
+  }
+}

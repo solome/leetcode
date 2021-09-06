@@ -1,11 +1,4 @@
-class ListNode {
-  val: number
-  next: ListNode | null
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = (val === undefined ? 0 : val)
-    this.next = (next === undefined ? null : next)
-  }
-}
+import ListNode, { arr2list } from '@leetcode/shared-utils/ListNode'
 
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
   const dummyHead = new ListNode()
@@ -35,20 +28,6 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
     state.p.next = new ListNode(state.carry)
   }
 
-  return dummyHead.next
-}
-
-function arr2list(arr: number[]) {
-  const dummyHead: ListNode = new ListNode()
-  let p = dummyHead
-
-  arr.forEach((val) => {
-    const node = new ListNode(val)
-    p.next = node
-    p = p.next
-  })
-
-  // console.log('arr2list', head)
   return dummyHead.next
 }
 

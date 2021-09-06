@@ -14,7 +14,8 @@
         "paths": {
             "*": [
                 "node_modules/*"
-            ]
+            ],
+            "@leetcode/shared-utils/*": [ "./resources/shared-utils/*" ]
         }
     },
     "include": [
