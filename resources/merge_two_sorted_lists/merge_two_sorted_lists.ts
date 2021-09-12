@@ -1,4 +1,4 @@
-import ListNode, { arr2list } from '@leetcode/shared-utils/ListNode'
+import { arr2list, ListNode } from '@leetcode/shared-utils/ListNode'
 
 function mergeTwoLists(l1: ListNode | null, l2: ListNode | null): ListNode | null {
   if (!l1 && !l2) return null

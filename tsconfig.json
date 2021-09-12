@@ -15,10 +15,11 @@
             "*": [
                 "node_modules/*"
             ],
-            "@leetcode/shared-utils/*": [ "./resources/shared-utils/*" ]
+            "@leetcode/shared-utils/*": [ "./resources/shared-utils/*" ],
+            "@leetcode/algorithms/*": [ "./resources/algorithms/*" ]
         }
     },
     "include": [
         "resources/**/*"
-    ]
+, "resources/algorithms/sort/.ts"    ]
 }

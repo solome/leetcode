@@ -1,6 +1,6 @@
-import ListNode, { arr2list } from '@leetcode/shared-utils/ListNode'
+import { arr2list, ListNode } from '@leetcode/shared-utils/ListNode'
 
-function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
+export function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
   const dummyHead = new ListNode()
 
   const state = {

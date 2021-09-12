@@ -1,3 +1,6 @@
+/**
+ * 链表数据结构。
+ */
 class ListNode {
   val: number
   next: ListNode | null
@@ -18,7 +21,7 @@ class ListNode {
   }
 }
 
-export default ListNode
+export { ListNode }
 
 export function arr2list(arr: number[]) {
   const dummyHead: ListNode = new ListNode()
