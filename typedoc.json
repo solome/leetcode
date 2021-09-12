@@ -1,0 +1,15 @@
+{
+  "name": "掬一捧's LeetCode",
+  "entryPoints": [
+    "resources/typedoc/shared-utils.ts",
+    "resources/typedoc/leetcode.ts",
+    "resources/typedoc/algorithms.ts"
+  ],
+  "markedOptions": {
+    "mangle": true,
+    "langPrefix": "hljs language-"
+  },
+  "theme": "./docs-theme",
+  "hideGenerator": true,
+  "out": "docs"
+}
