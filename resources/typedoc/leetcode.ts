@@ -5,3 +5,5 @@ export type { mergeTwoLists as merge_two_sorted_lists } from '@leetcode/merge_tw
 export type { two_sum } from '@leetcode/two_sum'
 export type { lengthOfLongestSubstring as longest_substring_without_repeating_characters } from '@leetcode/longest_substring_without_repeating_characters'
 export type { findSubstring as substring_with_concatenation_of_all_words } from '@leetcode/substring_with_concatenation_of_all_words'
+export type { LRUCache } from '@leetcode/lru-cache'
+export type { isMatch as regular_expression_matching } from '@leetcode/regular_expression_matching'
