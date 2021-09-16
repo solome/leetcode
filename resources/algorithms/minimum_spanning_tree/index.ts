@@ -1,4 +1,4 @@
 export class MinimumSpanningTree {
-  kruskal() { }
-  prim() { }
+  static kruskal() { }
+  static prim() { }
 }

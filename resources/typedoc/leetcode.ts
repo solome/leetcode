@@ -7,3 +7,4 @@ export type { lengthOfLongestSubstring as longest_substring_without_repeating_ch
 export type { findSubstring as substring_with_concatenation_of_all_words } from '@leetcode/substring_with_concatenation_of_all_words'
 export type { LRUCache } from '@leetcode/lru-cache'
 export type { isMatch as regular_expression_matching } from '@leetcode/regular_expression_matching'
+export type { longestPalindrome as longest_palindromic_substring } from '@leetcode/longest_palindromic_substring'
