@@ -84,6 +84,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="leetcode.html#add_two_numbers" class="tsd-kind-icon">add_<wbr>two_<wbr>numbers</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="leetcode.html#findKSortedArrays" class="tsd-kind-icon">findKSorted<wbr>Arrays</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="leetcode.html#longest_turbulent_subarray" class="tsd-kind-icon">longest_<wbr>turbulent_<wbr>subarray</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="leetcode.html#median_of_two_sorted_arrays" class="tsd-kind-icon">median_<wbr>of_<wbr>two_<wbr>sorted_<wbr>arrays</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="leetcode.html#merge_k_sorted_lists" class="tsd-kind-icon">merge_<wbr>k_sorted_<wbr>lists</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="leetcode.html#merge_two_sorted_lists" class="tsd-kind-icon">merge_<wbr>two_<wbr>sorted_<wbr>lists</a></li>
@@ -111,9 +112,22 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in leetcode/longest_palindromic_substring/index.ts:5</li>
+									<li>Defined in <a href="https://github.com/solome/leetcode/blob/89190f3/resources/leetcode/longest_palindromic_substring/index.ts#L11">leetcode/longest_palindromic_substring/index.ts:11</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>description</dt>
+									<dd><p>有四种实现方式：</p>
+										<ul>
+											<li>暴力穷举O(N^3)：内存溢出。</li>
+											<li>动态规划O(N^2)：假如 <code>P[i,j]</code> 是回文字符串，那么 <code>P[i+1,j-1]</code> 也是回文字符串。</li>
+											<li>中心扩展O(N^2)：注意区分回文字符串长度偶数、奇数的情况（自己想的思路，也是最好理解的实现方式）。</li>
+											<li>Manacher法O(N)：效率高。</li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -137,7 +151,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/solome/leetcode/blob/b67357f/resources/leetcode/add_two_numbers/index.ts#L3">leetcode/add_two_numbers/index.ts:3</a></li>
+									<li>Defined in <a href="https://github.com/solome/leetcode/blob/89190f3/resources/leetcode/add_two_numbers/index.ts#L3">leetcode/add_two_numbers/index.ts:3</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -163,7 +177,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/solome/leetcode/blob/b67357f/resources/leetcode/median_of_two_sorted_arrays/index.ts#L5">leetcode/median_of_two_sorted_arrays/index.ts:5</a></li>
+									<li>Defined in <a href="https://github.com/solome/leetcode/blob/89190f3/resources/leetcode/median_of_two_sorted_arrays/index.ts#L5">leetcode/median_of_two_sorted_arrays/index.ts:5</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -194,6 +208,36 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="longest_turbulent_subarray" class="tsd-anchor"></a>
+					<h3>longest_<wbr>turbulent_<wbr>subarray</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">longest_<wbr>turbulent_<wbr>subarray<span class="tsd-signature-symbol">(</span>arr<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in leetcode/longest_turbulent_subarray/index.ts:6</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>see</dt>
+									<dd><p>跟 <a href="leetcode.html#longest_palindromic_substring">longest_palindromic_substring</a> 类似吧。</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>arr: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
 					<a name="median_of_two_sorted_arrays" class="tsd-anchor"></a>
 					<h3>median_<wbr>of_<wbr>two_<wbr>sorted_<wbr>arrays</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
@@ -203,7 +247,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/solome/leetcode/blob/b67357f/resources/leetcode/median_of_two_sorted_arrays/index.ts#L33">leetcode/median_of_two_sorted_arrays/index.ts:33</a></li>
+									<li>Defined in <a href="https://github.com/solome/leetcode/blob/89190f3/resources/leetcode/median_of_two_sorted_arrays/index.ts#L33">leetcode/median_of_two_sorted_arrays/index.ts:33</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -241,7 +285,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/solome/leetcode/blob/b67357f/resources/leetcode/merge_k_sorted_lists/index.ts#L3">leetcode/merge_k_sorted_lists/index.ts:3</a></li>
+									<li>Defined in <a href="https://github.com/solome/leetcode/blob/89190f3/resources/leetcode/merge_k_sorted_lists/index.ts#L3">leetcode/merge_k_sorted_lists/index.ts:3</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -264,7 +308,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/solome/leetcode/blob/b67357f/resources/leetcode/merge_two_sorted_lists/index.ts#L3">leetcode/merge_two_sorted_lists/index.ts:3</a></li>
+									<li>Defined in <a href="https://github.com/solome/leetcode/blob/89190f3/resources/leetcode/merge_two_sorted_lists/index.ts#L3">leetcode/merge_two_sorted_lists/index.ts:3</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -290,7 +334,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/solome/leetcode/blob/b67357f/resources/leetcode/regular_expression_matching/index.ts#L1">leetcode/regular_expression_matching/index.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/solome/leetcode/blob/89190f3/resources/leetcode/regular_expression_matching/index.ts#L1">leetcode/regular_expression_matching/index.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -316,7 +360,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/solome/leetcode/blob/b67357f/resources/leetcode/two_sum/index.ts#L1">leetcode/two_sum/index.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/solome/leetcode/blob/89190f3/resources/leetcode/two_sum/index.ts#L1">leetcode/two_sum/index.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -345,7 +389,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/solome/leetcode/blob/b67357f/resources/leetcode/longest_substring_without_repeating_characters/index.ts#L7">leetcode/longest_substring_without_repeating_characters/index.ts:7</a></li>
+									<li>Defined in <a href="https://github.com/solome/leetcode/blob/89190f3/resources/leetcode/longest_substring_without_repeating_characters/index.ts#L7">leetcode/longest_substring_without_repeating_characters/index.ts:7</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -381,7 +425,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/solome/leetcode/blob/b67357f/resources/leetcode/substring_with_concatenation_of_all_words/index.ts#L10">leetcode/substring_with_concatenation_of_all_words/index.ts:10</a></li>
+									<li>Defined in <a href="https://github.com/solome/leetcode/blob/89190f3/resources/leetcode/substring_with_concatenation_of_all_words/index.ts#L10">leetcode/substring_with_concatenation_of_all_words/index.ts:10</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -446,6 +490,9 @@
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-module">
 						<a href="leetcode.html#longest_substring_without_repeating_characters" class="tsd-kind-icon">longest_<wbr>substring_<wbr>without_<wbr>repeating_<wbr>characters</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="leetcode.html#longest_turbulent_subarray" class="tsd-kind-icon">longest_<wbr>turbulent_<wbr>subarray</a>
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-module">
 						<a href="leetcode.html#median_of_two_sorted_arrays" class="tsd-kind-icon">median_<wbr>of_<wbr>two_<wbr>sorted_<wbr>arrays</a>

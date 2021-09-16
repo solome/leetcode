@@ -8,3 +8,4 @@ export type { findSubstring as substring_with_concatenation_of_all_words } from 
 export type { LRUCache } from '@leetcode/lru-cache'
 export type { isMatch as regular_expression_matching } from '@leetcode/regular_expression_matching'
 export type { longestPalindrome as longest_palindromic_substring } from '@leetcode/longest_palindromic_substring'
+export type { maxTurbulenceSize as longest_turbulent_subarray } from '@leetcode/longest_turbulent_subarray'

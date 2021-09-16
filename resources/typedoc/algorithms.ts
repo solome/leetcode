@@ -16,7 +16,9 @@ export type { prim } from '@leetcode/algorithms/minimum_spanning_tree/prim'
 
 export type { BFS } from '@leetcode/algorithms/BFS'
 export type { DFS } from '@leetcode/algorithms/DFS'
+export type { LFU } from '@leetcode/algorithms/LFU'
 export type { LRU } from '@leetcode/algorithms/LRU'
+
 export type { Dijkstra } from '@leetcode/algorithms/Dijkstra'
 export type { HuffmanTree } from '@leetcode/algorithms/HuffmanTree'
 
