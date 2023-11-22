@@ -1,3 +1,4 @@
+
 /**
  * @category Sliding Window
  * @see [substring-with-concatenation-of-all-words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)。
@@ -7,7 +8,7 @@
  * - Memory 164.5 MB	
  * 
  */
-export function findSubstring(s: string, words: string[]): number[] {
+export function substring_with_concatenation_of_all_words(s: string, words: string[]): number[] {
   const wordsSize = words.join('').length
   const res = []
   let i = 0
@@ -91,3 +92,5 @@ export function findSubstringNotPass(s: string, words: string[]): number[] {
 
   return res
 }
+
+

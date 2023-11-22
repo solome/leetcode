@@ -11,13 +11,10 @@
 
 ```bash
 .
-├── algorithms    # 经典算法
+├── algorithms    # 算法
 ├── leetcode      # LeetCode 题库
-└── shared_utils  # 辅助工具
+└── shared_utils  # 辅助工具：数据结构定义等等
 ```
 
-## Rust
-
-- [Rust "小札": 基于 Ownership 机制的内存管理]()
-- [Rust "小札": 结构体、枚举 & 匹配]()
-- [Rust "小札": 泛型、trait & 生命周期]()
+[[include:LeetCode.md]]
+[[include:RustBlogNav.md]]

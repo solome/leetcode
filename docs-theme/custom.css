@@ -1,0 +1,58 @@
+body {
+  font: 14px 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+img {
+  max-width: 100%;
+}
+
+.tsd-breadcrumb li:first-child {
+  display: none;
+}
+
+pre,
+code {
+  background: #f3f3f3;
+  font-size: 0.8rem;
+  font-family: monospace;
+}
+
+.tsd-page-toolbar a.title {
+  color: #258fb8;
+  text-decoration: none;
+}
+
+.tsd-page-toolbar a.title:hover {
+  color: #010020;
+  text-decoration: none;
+}
+
+.tsd-typography a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #258fb8;
+  text-decoration: none;
+}
+
+.tsd-typography a:hover {
+  background-color: #bbeffd;
+  border-bottom-color: #1a1a1a;
+  color: #8b0000;
+}
+
+.tsd-page-title .container h1 {
+  display: none;
+}
+
+.tsd-page-title .container::after {
+  content: 'Better to run than curse the road.';
+  display: block;
+  line-height: 2;
+}
+
+.tsd-breadcrumb li:first-child {
+  display: none;
+}
+
+.tsd-breadcrumb li:last-child::after {
+  display: none;
+}

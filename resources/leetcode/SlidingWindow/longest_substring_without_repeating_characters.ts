@@ -21,6 +21,7 @@ export function lengthOfLongestSubstring(s: string): number {
   return maxLen
 }
 
+
 // console.log(lengthOfLongestSubstring(''))
 // console.log(lengthOfLongestSubstring(' '))
 // console.log(lengthOfLongestSubstring('hello'))

@@ -9,7 +9,8 @@
     "mangle": true,
     "langPrefix": "hljs language-"
   },
-  "theme": "./docs-theme",
+  "includes": ["./markdown/partials"],
+  "customCss": "./docs-theme/custom.css",
   "hideGenerator": true,
   "out": "docs"
 }
